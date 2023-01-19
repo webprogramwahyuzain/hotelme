@@ -363,6 +363,19 @@ class _CiputraPageState extends State<CiputraPage> {
           SizedBox(
             height: 55,
           ),
+          ElevatedButton(
+            style: ButtonStyle(
+              backgroundColor:
+                  MaterialStatePropertyAll<Color>(Color(0xff1C3879)),
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18.0),
+                ),
+              ),
+            ),
+            onPressed: () {},
+            child: Text("Pesan"),
+          ),
         ],
       ),
     );

@@ -197,8 +197,13 @@ class _HotelPageState extends State<HotelPage> {
           SizedBox(
             height: 15,
           ),
+          // ElevatedButton(
+          //   onPressed: () {},
+          //   child: Text("Pesan"),
+          // ),
         ],
       ),
+
       // bottom navigation bar
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[

@@ -26,6 +26,7 @@ class Cards extends StatelessWidget {
           ),
         ),
         Container(
+          // ignore: sort_child_properties_last
           child: Padding(
             padding: const EdgeInsets.all(15.0),
             child: Column(
@@ -73,6 +74,7 @@ class Cards extends StatelessWidget {
                     children: [
                       Text(
                         address,
+                        // ignore: prefer_const_constructors
                         style: TextStyle(
                           color: Color(0xffFFFBFB),
                           fontSize: 12.0,
